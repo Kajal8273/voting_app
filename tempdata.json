@@ -1,0 +1,20 @@
+{
+    "name" :"modi",
+    "party": "bjp",
+    "age":76,
+   
+    "votes":[
+    
+        {
+            "user" :"1234567890dfre32",
+            "votedAt":"2345tgbvdfsretyu789"
+        },
+        {
+            "user" :"1234567890dfre32",
+            "votedAt":"2345tgbvdfsretyu789"
+        }
+        
+    ],
+    "votecountis" : 2
+
+}

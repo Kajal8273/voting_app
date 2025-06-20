@@ -1,0 +1,40 @@
+voting app
+what - user can give vote to the given set of candidates
+
+MODELS
+ROUTES
+
+voting app functioality
+
+1.user signup/signin
+2.see the list of candidates
+3.vote only one of the candidate
+4. there is a route whic can shoes the list of candidaets and their live votes sorted by their vote
+5. user data must have their one unique governmeent id proof
+6. there should be admin who can maintain the overall process but he cant be avle to vote
+7.user can change their password
+8.user can login by their government id
+
+
+------------------------------------------------------
+ROUTES
+
+Uer Authentication:
+  /signup: POST -
+  /login: POST -
+
+voting:
+  /candidaets : GET -
+  /vote/:candidaetID : POST -
+
+Vote Counts:
+  /vote/counts : GET
+
+User Profiles:
+  /profile :GET -
+  /profile/password :PUT -
+
+Admin Candidate Management :
+  /candidates :POST -
+  /candidaetes/:candidaetID : PUT   -
+  /candidates/:candidaetID :DELETE -
