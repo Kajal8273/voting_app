@@ -6,7 +6,7 @@ const {jwtAuthMiddleware,generateToken}= require('./../jwt');
 
 //POST method to add a new Person
 
-router.post('/signup',async(req,res)=>{
+router.get('/signup',async(req,res)=>{
     try{
         
         const data = req.body //assuming the request body contins the user data
